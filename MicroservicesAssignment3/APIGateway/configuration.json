@@ -10,7 +10,14 @@
         }
       ],
       "UpstreamPathTemplate": "/gateway/customers",
-      "UpstreamHttpMethod": [ "GET" ]
+      "UpstreamHttpMethod": [ "GET" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "DownstreamPathTemplate": "/api/customers/{id}",
@@ -22,7 +29,14 @@
         }
       ],
       "UpstreamPathTemplate": "/gateway/customers/{id}",
-      "UpstreamHttpMethod": [ "GET"]
+      "UpstreamHttpMethod": [ "GET" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
     },
     {
       "DownstreamPathTemplate": "/api/products",
@@ -33,6 +47,24 @@
           "Port": 44378
         }
       ],
+      "UpstreamPathTemplate": "/gateway/products",
+      "UpstreamHttpMethod": [ "GET" ],
+      "RateLimitOptions": {
+        "ClientWhitelist": [],
+        "EnableRateLimiting": true,
+        "Period": "1s",
+        "PeriodTimespan": 1,
+        "Limit": 1
+      }
+    }
+
+  ],
+
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44318"
+  }
+
+}
       "UpstreamPathTemplate": "/gateway/products",
       "UpstreamHttpMethod": [ "GET" ]
     }
