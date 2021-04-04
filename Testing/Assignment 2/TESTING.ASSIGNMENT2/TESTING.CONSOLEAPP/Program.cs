@@ -11,14 +11,14 @@ namespace TESTING.CONSOLEAPP
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ram".ChangeCase());
-            Console.WriteLine("ram MCA RAM Bca BbA".ChangeToTitleCase());
-            Console.WriteLine("Ram".IsLowerCaseString()?"All Characters are lower":"Not all characters are lower");
-            Console.WriteLine("ramsingh".DoCapitalize());
-            Console.WriteLine("ram".IsUpperCaseString() ? "All Characters are upper" : "Not all characters are upper");
+            Console.WriteLine("Saloni".ChangeCase());
+            Console.WriteLine("saloni CSE KAJAL Bca BbA".TitleCase());
+            Console.WriteLine("john".IsLowerCase()?"All Characters are lower":"Not all characters are lower");
+            Console.WriteLine("saloni".Capitalize());
+            Console.WriteLine("ram".IsUpperCase() ? "All Characters are upper" : "Not all characters are upper");
             Console.WriteLine("123d".IsValidNumericValue()?"Is valid numeric string":"Is not valid numeric string");
-            Console.WriteLine("ramsingh".RemoveLastCharacter());
-            Console.WriteLine("ram singh".WordCount());
+            Console.WriteLine("Kajal Singhvi".RemoveLastCharacter());
+            Console.WriteLine("Saloni Jain".WordCount());
             Console.WriteLine("123".StringToInteger());
             Console.ReadLine();
         }

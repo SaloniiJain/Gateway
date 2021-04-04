@@ -30,8 +30,8 @@ namespace TESTING.CLPMT.TEST
         {
 
             var newPassenger = new Passenger();
-            newPassenger.FirstName= "viren";
-            newPassenger.LastName = "nanda";
+            newPassenger.FirstName= "saloni";
+            newPassenger.LastName = "jain";
             newPassenger.ContactNo = "1234";
 
             var addedPassenger = _pm.AddPassenger(newPassenger);
@@ -94,9 +94,9 @@ namespace TESTING.CLPMT.TEST
         {
             IList<Passenger> passengers = new List<Passenger>()
             {
-                new Passenger(){ Number=Guid.NewGuid(),FirstName="ram1",LastName="singh1",ContactNo="12324"},
-                new Passenger(){ Number=Guid.NewGuid(),FirstName="ram2",LastName="singh2",ContactNo="12324"},
-                new Passenger(){ Number=Guid.NewGuid(),FirstName="ram3",LastName="singh3",ContactNo="12324"}
+                new Passenger(){ Number=Guid.NewGuid(),FirstName="john",LastName="Jain",ContactNo="12324"},
+                new Passenger(){ Number=Guid.NewGuid(),FirstName="Rony",LastName="singh",ContactNo="12324"},
+                new Passenger(){ Number=Guid.NewGuid(),FirstName="marry",LastName="mogra",ContactNo="12324"}
             };
             return passengers;
         }

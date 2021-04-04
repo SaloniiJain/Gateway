@@ -9,10 +9,20 @@ namespace TESTING.CONSOLEAPP.ExtenstionClasses
 {
     public static class StringOperations
     {
+        /// <summary>
+        /// Returning input string with uppercase characters converted to lowercase and vice versa.
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static string ChangeCase(this string inputString) {
             return Char.IsLower(inputString[0]) ? inputString.ToUpper() : inputString.ToLower();
         }
-        public static string ChangeToTitleCase(this string inputString)
+        /// <summary>
+        /// Converts the specified string to title case.
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
+        public static string TitleCase(this string inputString)
         {
             StringBuilder updatedString = new StringBuilder();
             string[] inputStringArray = inputString.Split(' ');
@@ -28,6 +38,7 @@ namespace TESTING.CONSOLEAPP.ExtenstionClasses
                     }
 
                 }
+                                                                                                                    
                 if (!isAcronyms)
                     updatedString.Append(CultureInfo.InvariantCulture.TextInfo.ToTitleCase(item)+" ");
                 else
@@ -35,7 +46,12 @@ namespace TESTING.CONSOLEAPP.ExtenstionClasses
             }
             return updatedString.ToString().Remove(updatedString.Length-1);
         }
-        public static bool IsLowerCaseString(this string inputString)
+        /// <summary>
+        /// Check characters are in lower case or not
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
+        public static bool IsLowerCase(this string inputString)
         {
             bool isLower = true;
             for (int index = 0; index < inputString.Length; index++)
@@ -48,11 +64,21 @@ namespace TESTING.CONSOLEAPP.ExtenstionClasses
             }
             return isLower ? true : false;
         }
-        public static string DoCapitalize(this string inputString)
+        /// <summary>
+        /// Checking first character have upper case and the rest lower case
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
+        public static string Capitalize(this string inputString)
         {
             return CultureInfo.InvariantCulture.TextInfo.ToTitleCase(inputString);
         }
-        public static bool IsUpperCaseString(this string inputString)
+        /// <summary>
+        /// Check characters are in upper case or not
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
+        public static bool IsUpperCase(this string inputString)
         {
             bool isUpper = true;
             for (int index = 0; index < inputString.Length; index++)
@@ -65,18 +91,38 @@ namespace TESTING.CONSOLEAPP.ExtenstionClasses
             }
             return isUpper ? true : false;
         }
+        /// <summary>
+        /// Check input string can be converted to a valid numeric value or not.
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static bool IsValidNumericValue(this string inputString)
         {
             return int.TryParse(inputString, out int n);
         }
+        /// <summary>
+        /// Remove the last character from given the string
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static string RemoveLastCharacter(this string inputString)
         {
             return inputString.Remove(inputString.Length - 1);
         }
+        /// <summary>
+        /// Count word from an input string
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static int WordCount(this string inputString)
         {
             return inputString.Split(' ').Length;
         }
+        /// <summary>
+        /// Converting input string into integer
+        /// </summary>
+        /// <param name="inputString"></param>
+        /// <returns></returns>
         public static int StringToInteger(this string inputString)
         {
             int.TryParse(inputString,out int n);
