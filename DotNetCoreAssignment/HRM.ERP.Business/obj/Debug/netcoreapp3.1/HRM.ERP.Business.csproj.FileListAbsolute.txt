@@ -1,0 +1,14 @@
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.deps.json
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Common.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Common.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csprojAssemblyReference.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.AssemblyInfoInputs.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.AssemblyInfo.cs
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csproj.CoreCompileInputs.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csproj.CopyComplete
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.pdb

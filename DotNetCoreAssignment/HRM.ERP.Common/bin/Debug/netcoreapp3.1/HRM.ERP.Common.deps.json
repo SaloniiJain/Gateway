@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HRM.ERP.Common/1.0.0": {
+        "runtime": {
+          "HRM.ERP.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HRM.ERP.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

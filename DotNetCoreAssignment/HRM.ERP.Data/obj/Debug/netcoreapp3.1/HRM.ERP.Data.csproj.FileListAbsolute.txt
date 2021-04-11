@@ -1,0 +1,15 @@
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.deps.json
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.runtimeconfig.json
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.runtimeconfig.dev.json
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Common.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Common.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csprojAssemblyReference.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.AssemblyInfoInputs.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.AssemblyInfo.cs
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csproj.CoreCompileInputs.cache
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csproj.CopyComplete
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.genruntimeconfig.cache
