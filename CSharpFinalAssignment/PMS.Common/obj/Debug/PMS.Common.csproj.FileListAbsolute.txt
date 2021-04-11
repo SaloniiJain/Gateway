@@ -1,0 +1,5 @@
+C:\Users\Anil Jain\Downloads\CSharpFinalAssignment\PMS.Common\bin\Debug\PMS.Common.dll
+C:\Users\Anil Jain\Downloads\CSharpFinalAssignment\PMS.Common\bin\Debug\PMS.Common.pdb
+C:\Users\Anil Jain\Downloads\CSharpFinalAssignment\PMS.Common\obj\Debug\PMS.Common.csproj.CoreCompileInputs.cache
+C:\Users\Anil Jain\Downloads\CSharpFinalAssignment\PMS.Common\obj\Debug\PMS.Common.dll
+C:\Users\Anil Jain\Downloads\CSharpFinalAssignment\PMS.Common\obj\Debug\PMS.Common.pdb
