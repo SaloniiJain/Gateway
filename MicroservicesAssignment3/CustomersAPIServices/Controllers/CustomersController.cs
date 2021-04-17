@@ -10,13 +10,13 @@ namespace CustomersAPIServices.Controllers
         [HttpGet]  
         public IEnumerable<string> Get()  
         {  
-            return new[] { "Suyash Jain", "John Doe" };  
+            return new[] { "Saloni Jain", "Dummy Text" };  
         }  
   
         [HttpGet("{id}")]  
         public string Get(int id)  
         {  
-            return $"Suyash Jain - {id}";  
+            return $"Saloni Jain - {id}";  
         }
     }
 }
