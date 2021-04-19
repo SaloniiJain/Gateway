@@ -1,6 +1,7 @@
 ﻿using HRM.ERP.Data.Models;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace HRM.ERP.Data
 {
     public class AppDbContext : DbContext
@@ -18,5 +19,9 @@ namespace HRM.ERP.Data
         }
 
         public DbSet<Employee> Employees { get; set; }
+
+        public class WebAppContext
+        {
+        }
     }
 }

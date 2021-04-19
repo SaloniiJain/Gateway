@@ -2,14 +2,17 @@ using System.Text;
 using HRM.ERP.Business;
 using HRM.ERP.Business.Helpers;
 using HRM.ERP.Business.Interfaces;
+using HRM.ERP.Data;
 using HRM.ERP.WebAPI.Helpers;
 using HRM.ERP.WebAPI.JWTConfig;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Logging;
 using Microsoft.IdentityModel.Tokens;
 
 namespace HRM.ERP.WebAPI
@@ -41,23 +44,25 @@ namespace HRM.ERP.WebAPI
             services.Configure<Config>(appSettingSection);
             var appSettings = appSettingSection.Get<Config>();
             var key = Encoding.ASCII.GetBytes(appSettings.Key);
+            IdentityModelEventSource.ShowPII = true;
 
-            services.AddAuthentication(auth =>
-            {
-                auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-                auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-            }).AddJwtBearer(jwt =>
-            {
-                jwt.RequireHttpsMetadata = false;
-                jwt.SaveToken = true;
-                jwt.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuerSigningKey = true,
-                    IssuerSigningKey = new SymmetricSecurityKey(key),
-                    ValidateIssuer = false,
-                    ValidateAudience = false
-                };
-            });
+            //services.AddAuthentication(auth =>
+            //{
+            //    auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+            //    auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            //}).AddJwtBearer(jwt =>
+            //{
+            //    jwt.RequireHttpsMetadata = false;
+            //    jwt.SaveToken = true;
+            //    jwt.TokenValidationParameters = new TokenValidationParameters
+            //    {
+            //        ValidateIssuerSigningKey = true,
+            //        IssuerSigningKey = new SymmetricSecurityKey(key), //key
+            //        ValidateIssuer = false,
+            //        ValidateAudience = false
+            //    };
+            //});
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -90,4 +95,6 @@ namespace HRM.ERP.WebAPI
             });
         }
     }
+
+
 }

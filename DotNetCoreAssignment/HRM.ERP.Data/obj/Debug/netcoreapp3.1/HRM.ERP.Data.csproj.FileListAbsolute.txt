@@ -13,3 +13,18 @@ C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcore
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.dll
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.genruntimeconfig.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.deps.json
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.runtimeconfig.json
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.runtimeconfig.dev.json
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Common.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\bin\Debug\netcoreapp3.1\HRM.ERP.Common.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csprojAssemblyReference.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.AssemblyInfoInputs.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.AssemblyInfo.cs
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csproj.CoreCompileInputs.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.csproj.CopyComplete
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Data\obj\Debug\netcoreapp3.1\HRM.ERP.Data.genruntimeconfig.cache

@@ -5,7 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="AuthenticationService\**" />
+    <Content Remove="AuthenticationService\**" />
+    <EmbeddedResource Remove="AuthenticationService\**" />
+    <None Remove="AuthenticationService\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="linq2db" Version="3.3.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.13" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.4">
@@ -19,10 +27,6 @@
   <ItemGroup>
     <ProjectReference Include="..\HRM.ERP.Business\HRM.ERP.Business.csproj" />
     <ProjectReference Include="..\HRM.ERP.Common\HRM.ERP.Common.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="AuthenticationService\" />
   </ItemGroup>
 
 

@@ -12,3 +12,17 @@ C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\net
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csproj.CopyComplete
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.dll
 C:\Users\Anil Jain\Downloads\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.deps.json
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Business.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Common.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Data.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Common.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\bin\Debug\netcoreapp3.1\HRM.ERP.Data.pdb
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csprojAssemblyReference.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.AssemblyInfoInputs.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.AssemblyInfo.cs
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csproj.CoreCompileInputs.cache
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.csproj.CopyComplete
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.dll
+D:\Gateway-main\DotNetCoreAssignment\HRM.ERP.Business\obj\Debug\netcoreapp3.1\HRM.ERP.Business.pdb

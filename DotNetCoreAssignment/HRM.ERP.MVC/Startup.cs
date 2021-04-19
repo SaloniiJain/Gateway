@@ -58,7 +58,7 @@ namespace HRM.ERP.MVC
             // Middleware to add header in response of each response
             app.Use(async (context, next) =>
             {
-                context.Response.Headers.Add("Developed-By", "Prince Makwana");
+                context.Response.Headers.Add("Developed-By", "Saloni");
                 await next.Invoke();
             });
 

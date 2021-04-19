@@ -31,7 +31,7 @@ namespace HRM.ERP.MVC.Controllers
             {
                 using (var client = new HttpClient())
                 {
-                    string postUri = "https://localhost:44367/AddEmployee";
+                    string postUri = "https://localhost:44367/api/Employee/AddEmployee";
 
                     //HTTP POST
                     var postTask = client.PostAsJsonAsync<EmployeeDTO>(postUri, employee);
@@ -54,7 +54,7 @@ namespace HRM.ERP.MVC.Controllers
             IEnumerable<EmployeeDTO> employees = null;
             using (var client = new HttpClient())
             {
-                string getUri = "https://localhost:44367/GetEmployees";
+                string getUri = "https://localhost:44367/api/Employee/GetEmployees";
 
                 //HTTP GET
                 var responseTask = client.GetAsync(getUri);
@@ -112,7 +112,7 @@ namespace HRM.ERP.MVC.Controllers
         {
             using (var client = new HttpClient())
             {
-                var deleteUri = "https://localhost:44367/DeleteEmployee/" + id;
+                var deleteUri = "https://localhost:44367/api/Employee/DeleteEmployee/" + id;
 
                 //HTTP DELETE
                 var deleteTask = client.DeleteAsync(deleteUri);
@@ -150,7 +150,7 @@ namespace HRM.ERP.MVC.Controllers
 
             using (var client = new HttpClient())
             {
-                string getUri = "https://localhost:44367/GetEmployeeById/" + id;
+                string getUri = "https://localhost:44367/api/Employee/GetEmployeeById/" + id;
 
                 //HTTP GET
                 var responseTask = client.GetAsync(getUri);
@@ -180,7 +180,7 @@ namespace HRM.ERP.MVC.Controllers
                 {
                     using (var client = new HttpClient())
                     {
-                        string putUri = "https://localhost:44367/EditEmployee";
+                        string putUri = "https://localhost:44367/api/Employee/EditEmployee";
 
                         //HTTP GET
                         var responseTask = client.PutAsJsonAsync<EmployeeDTO>(putUri, employee);

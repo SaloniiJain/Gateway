@@ -11,7 +11,7 @@ using Microsoft.IdentityModel.Tokens;
 
 namespace HRM.ERP.WebAPI.Helpers
 {
-    public class AuthService: IAuthService
+    public class AuthService : IAuthService
     {
         private readonly Config _config;
 
@@ -26,6 +26,12 @@ namespace HRM.ERP.WebAPI.Helpers
             {
                 Email = "admin@hrm.com",
                 Password = "asdf123@"
+            },
+
+            new UserLogin
+            {
+                Email = "saloni@gmail.com",
+                Password = "salonii@"
             }
         };
 

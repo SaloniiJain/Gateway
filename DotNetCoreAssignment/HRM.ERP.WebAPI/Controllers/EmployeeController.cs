@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using System.Text.Json;
-using HRM.ERP.Business;
 using HRM.ERP.Business.Interfaces;
 using HRM.ERP.Common.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -9,8 +8,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace HRM.ERP.WebAPI.Controllers
 {
-    //[Route("api/[controller]")]
-    [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    [Route("api/Employee")]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
     [ApiController]
     public class EmployeeController : ControllerBase
     {
@@ -26,7 +25,7 @@ namespace HRM.ERP.WebAPI.Controllers
         public IActionResult GetEmployee()
         {
             var employees = _employeeManager.getAllemployees();
-            if(employees.Count() != 0)
+            if (employees.Count() != 0)
             {
                 return Ok(JsonSerializer.Serialize(employees));
             }
