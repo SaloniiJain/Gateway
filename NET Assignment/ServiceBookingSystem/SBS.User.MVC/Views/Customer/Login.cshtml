@@ -14,7 +14,7 @@
     @Styles.Render("~/Content/authenticate")
     @Scripts.Render("~/bundles/modernizr")
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="~/images/bike.png" type="image/imge_header">
+    
 </head>
 <body>
     @if (ViewBag.Message != null)
@@ -33,7 +33,7 @@
                 <div class="container">
                     <div class="signin-content">
                         <div class="signin-image">
-                            <figure><img src="~/images/signin-image.jpg" alt="sing in image"></figure>
+                            <figure><img src="~/images/signin-image.png" alt="sing in image"></figure>
                             @Html.ActionLink("Create an Account", "Register", "Customer")
                             <div style="color:red;">@Html.ValidationSummary()</div>
                         </div>

@@ -3,8 +3,9 @@
     ViewBag.Title = "Dashboard";
 }
 
+
 @if(Request.IsAuthenticated)
 {
-    <h4>Welcome @Session["Name"]</h4>
+    <h2 style="text-align:center; font-weight:bolder; color:darkgoldenrod">Welcome @Session["Name"]</h2>
 }
 

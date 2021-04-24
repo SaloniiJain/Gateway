@@ -4,3 +4,8 @@ E:\GATEWAY\Gateway Assignments\.net\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE
 E:\GATEWAY\Gateway Assignments\.net\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.csproj.CoreCompileInputs.cache
 E:\GATEWAY\Gateway Assignments\.net\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.dll
 E:\GATEWAY\Gateway Assignments\.net\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.pdb
+C:\Users\Anil Jain\Desktop\GatewayAssignments\Gateway\NET Assignment\ServiceBookingSystem\SBS.BE\bin\Debug\SBS.BE.dll
+C:\Users\Anil Jain\Desktop\GatewayAssignments\Gateway\NET Assignment\ServiceBookingSystem\SBS.BE\bin\Debug\SBS.BE.pdb
+C:\Users\Anil Jain\Desktop\GatewayAssignments\Gateway\NET Assignment\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.csproj.CoreCompileInputs.cache
+C:\Users\Anil Jain\Desktop\GatewayAssignments\Gateway\NET Assignment\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.dll
+C:\Users\Anil Jain\Desktop\GatewayAssignments\Gateway\NET Assignment\ServiceBookingSystem\SBS.BE\obj\Debug\SBS.BE.pdb

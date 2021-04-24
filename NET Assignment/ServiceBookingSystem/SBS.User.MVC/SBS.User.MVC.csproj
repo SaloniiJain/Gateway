@@ -140,8 +140,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\bike.png" />
-    <Content Include="Images\signin-image.jpg" />
+    <Content Include="Images\signin-image.png" />
     <Content Include="Images\signup-image.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
