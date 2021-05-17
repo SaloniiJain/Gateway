@@ -5984,23 +5984,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saloni.jain\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Anil Jain\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\HRM.ERP.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\HRM.ERP.WebAPI.csproj",
       "projectName": "HRM.ERP.WebAPI",
-      "projectPath": "D:\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\HRM.ERP.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\saloni.jain\\.nuget\\packages\\",
-      "outputPath": "D:\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\HRM.ERP.WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Anil Jain\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\saloni.jain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Anil Jain\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6012,13 +6008,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\DotNetCoreAssignment\\HRM.ERP.Business\\HRM.ERP.Business.csproj": {
-              "projectPath": "D:\\DotNetCoreAssignment\\HRM.ERP.Business\\HRM.ERP.Business.csproj"
+            "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.Business\\HRM.ERP.Business.csproj": {
+              "projectPath": "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.Business\\HRM.ERP.Business.csproj"
             },
-            "D:\\DotNetCoreAssignment\\HRM.ERP.Common\\HRM.ERP.Common.csproj": {
-              "projectPath": "D:\\DotNetCoreAssignment\\HRM.ERP.Common\\HRM.ERP.Common.csproj"
+            "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.Common\\HRM.ERP.Common.csproj": {
+              "projectPath": "C:\\Users\\Anil Jain\\Desktop\\GatewayAssignments\\Gateway\\DotNetCoreAssignment\\HRM.ERP.Common\\HRM.ERP.Common.csproj"
             }
           }
         }
@@ -6031,7 +6026,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -6082,7 +6076,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
